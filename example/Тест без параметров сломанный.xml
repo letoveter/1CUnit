@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Структура>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ГруппаТестов">Тестирование тестирования</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="Код">ТТ_3</d2p1:string>
+	<d2p1:boolean xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="НеИспользовать">false</d2p1:boolean>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ОписаниеТеста">Тест без параметров</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="АлгоритмТестовогоМетода">ВызватьИсключение("Ожидаемая ошибка");</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ОписаниеТеста">Тест без параметров</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ОписаниеТеста">Тест без параметров</d2p1:string>
+</Структура>

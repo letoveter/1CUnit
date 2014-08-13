@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Структура>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ГруппаТестов">Тестирование тестирования</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="Код">ТТ_4</d2p1:string>
+	<d2p1:boolean xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="НеИспользовать">false</d2p1:boolean>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ОписаниеТеста">Завершение теста</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="АлгоритмТестовогоМетода">ВывестиВЛог("Это тестовый метод",СтруктураЛога);
+Если ПараметрыТеста.ЕстьИсключение Тогда
+	ВызватьИсключение("Исключение в тестовом методе");
+КонецЕсли;</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="АлгоритмЗавершения">ВывестиВЛог("Это код завершения",СтруктураЛога);
+ВызватьИсключение("Исключение в завершении");</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ОписаниеТеста">Завершение теста</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ОписаниеТеста">Завершение теста</d2p1:string>
+	<ТабличнаяЧасть Name="ПараметрыТестов">
+		<Row>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИдПараметра">ЕстьИсключение</d4p1:string>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИмяПараметра">Есть исключение</d4p1:string>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ТипСтрока">Булево</d4p1:string>
+			<d4p1:boolean xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="Выражение">false</d4p1:boolean>
+		</Row>
+	</ТабличнаяЧасть>
+	<ТабличнаяЧасть Name="ТестовыеСлучаи">
+		<Row>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИдТестовогоСлучая">ХорошийСлучай</d4p1:string>
+			<d4p1:boolean xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="Выключен">false</d4p1:boolean>
+		</Row>
+		<Row>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИдТестовогоСлучая">ПлохойСлучай</d4p1:string>
+			<d4p1:boolean xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="Выключен">false</d4p1:boolean>
+		</Row>
+	</ТабличнаяЧасть>
+	<ТабличнаяЧасть Name="НаборыТестов">
+		<Row>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИдТестовогоСлучая">ПлохойСлучай</d4p1:string>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИдПараметра">ЕстьИсключение</d4p1:string>
+			<d4p1:boolean xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ЗначениеПараметра">true</d4p1:boolean>
+		</Row>
+		<Row>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИдТестовогоСлучая">ХорошийСлучай</d4p1:string>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИдПараметра">ЕстьИсключение</d4p1:string>
+			<d4p1:boolean xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ЗначениеПараметра">false</d4p1:boolean>
+		</Row>
+	</ТабличнаяЧасть>
+</Структура>
