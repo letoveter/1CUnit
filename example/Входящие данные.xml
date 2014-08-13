@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Структура>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ГруппаТестов">Тестирование тестирования</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="Код">ТТ_6</d2p1:string>
+	<d2p1:boolean xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="НеИспользовать">false</d2p1:boolean>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ОписаниеТеста">Входящие данные</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="АлгоритмТестовогоМетода">ВывестиВЛог("Это тестовый метод",СтруктураЛога);
+
+ВывестиВЛог("ВходящиеДанные - "+ВходящиеДанные[0],СтруктураЛога);
+</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ОписаниеТеста">Входящие данные</d2p1:string>
+	<d2p1:string xmlns:d2p1="http://www.w3.org/2001/XMLSchema" Name="ОписаниеТеста">Входящие данные</d2p1:string>
+	<ТабличнаяЧасть Name="ЭлементыКонтекста">
+		<Row>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="Данные">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;Структура xmlns:ecc="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:w3o="http://www.w3.org/2001/XMLSchema"&gt;
+	&lt;w3o:boolean Name="Предопределенный"&gt;false&lt;/w3o:boolean&gt;
+	&lt;ecc:CatalogRef.Валюты Name="Ссылка"&gt;e4d4a96f-97bf-11e3-80bd-005056846197&lt;/ecc:CatalogRef.Валюты&gt;
+	&lt;w3o:boolean Name="ПометкаУдаления"&gt;false&lt;/w3o:boolean&gt;
+	&lt;w3o:string Name="Наименование"&gt;Тест&lt;/w3o:string&gt;
+	&lt;w3o:string Name="Код"&gt;9700&lt;/w3o:string&gt;
+	&lt;w3o:boolean Name="ЗагружаетсяИзИнтернета"&gt;true&lt;/w3o:boolean&gt;
+	&lt;w3o:string Name="НаименованиеПолное"&gt;Тестовая валюта&lt;/w3o:string&gt;
+	&lt;w3o:string Name="ПараметрыПрописиНаРусском"&gt;евро, евро, евро, м, цент, цента, центов, м, 2 знака&lt;/w3o:string&gt;
+&lt;/Структура&gt;</d4p1:string>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="АлгоритмИнициализации">СозданнаяСсылка = СоздатьСериализованныйОбъект(Данные,Справочники.Валюты,СтруктураЛога);
+</d4p1:string>
+		</Row>
+	</ТабличнаяЧасть>
+	<ТабличнаяЧасть Name="ТестовыеСлучаи">
+		<Row>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИдТестовогоСлучая">ХорошийСлучай</d4p1:string>
+			<d4p1:boolean xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="Выключен">false</d4p1:boolean>
+		</Row>
+	</ТабличнаяЧасть>
+	<ТабличнаяЧасть Name="НаборыТестов">
+		<Row>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИдТестовогоСлучая">ПлохойСлучай</d4p1:string>
+			<d4p1:string xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ИдПараметра">ЕстьИсключение</d4p1:string>
+			<d4p1:boolean xmlns:d4p1="http://www.w3.org/2001/XMLSchema" Name="ЗначениеПараметра">true</d4p1:boolean>
+		</Row>
+	</ТабличнаяЧасть>
+</Структура>
